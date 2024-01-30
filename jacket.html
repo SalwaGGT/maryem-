@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        nav ul{
+         display: flex;
+        justify-content: space-around;
+         list-style-type: none;
+         padding: 0;
+         }
+         nav a:hover{
+        color: gray;
+        box-shadow:10px 5px 10px 5px white;
+        }
+         nav a{
+         color: white;
+          text-decoration: none;
+        }
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+         }
+         .banner{
+         background-image: url("lil.jpg");
+         background-size: cover;
+         background-position: center;
+         height: 700px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         color: white;
+          }
+          header{
+        background-color:red;
+        padding: 20px;
+        color: white; 
+     }
+     .home-content{
+    max-width: 500px;
+    padding: 20px;
+    }
+ .home-content h1{
+    opacity: 0;
+    animation:slideRight 1s ease forwards;
+    animation-duration: 2s;
+ }
+ @keyframes slideRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+ }
+   .home-content h3{
+    opacity: 0;
+    animation:slideRight 1s ease forwards;
+    animation-duration: 4s;
+ }
+   h1 {
+    text-decoration: solid;
+    margin: 1%;
+    text-align: center;
+    box-shadow: 10px 5px 10px 5px rgb(206, 17, 17);
+    color: white;
+     }
+     h3{
+        color: white;
+     }
+     p{
+    margin: 20px;
+    text-align: center;
+    color: white;
+   }
+   img{
+    box-shadow: 10px 5px 10px 5px rgb(245, 242, 242);
+    text-decoration: none;
+    border-radius: 20px;
+    animation-duration: 4s;
+    display:flex; 
+    margin: 8px;
+   }
+   button{
+    background-color: red;
+    border-radius: 20px;
+    color: black;
+ }
+ #nn{
+    position: relative;
+    left: 40%;
+ }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../EL HAMDY SALWA 2024-1-17/index.html">Homme</a></li>
+                <li><a href="../EL HAMDY SALWA 2024-1-17/jacket.html">Jackets</a></li>
+                <li><a href="../EL HAMDY SALWA 2024-1-17/Shos.html">Shoes</a></li>
+                <li><a href="../EL HAMDY SALWA 2024-1-17/acces.html">Accessoire</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home-content">
+        <h1>Jackets pour les homme</h1>
+        <h3>STAYLISTE</h3>
+        <p>Fashion is a reflection of an era, a country, a culture or a population. Whether they are sartorial, artistic, musical, aesthetic, political, linguistic, athletic or geographical...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="container-fluid">
+         <div class="row">
+         <div class="col-sm-4">
+        <img src="Men Patched Pocket Denim Shirt Without Tee.jpeg" alt="" width="400px">
+        <p><b>le prix :500dh</b></p>
+        <button id="nn">buy</button>
+         </div>
+         <div class="col-sm-4">
+        <img src="Men Spliced Denim Trucker Jacket Without Hoodie.jpeg" alt=""  width="400px">
+        <p><b>le prix :600dh</b></p>
+        <button id="nn">buy</button>
+         </div> 
+            <div class="col-sm-4">
+         <img src="Men's pockets jackets 😎.jpeg" alt=""  width="400px">
+         <p><b>le prix :780dh</b></p>
+         <button id="nn">buy</button>
+            </div>
+         </div>
+         <div class="row">
+        <div class="col-sm-4">
+       <img src="l.jpeg" alt="" width="400px">
+       <p><b>le prix :800dh</b></p>
+       <button id="nn">buy</button>
+        </div>
+        <div class="col-sm-4">
+        <img src="ll.jpeg" width="400px" alt="">
+        <p><b>le prix :676dh</b></p>
+        <button id="nn">buy</button>
+        </div>
+        <div class="col-sm-4">
+        <img src="lll.jpeg" alt="" width="400px">
+        <p><b>le prix :606dh</b></p>
+        <button id="nn">buy</button>
+        </div>
+         </div>
+        </div>
+       
+</body>
+</html>
